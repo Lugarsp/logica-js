@@ -4,7 +4,7 @@ let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 console.log(numeroSecreto);
 let chute;
 let tentativas = 1;
-
+//teste
 // enquanto chute não for igual ao n.s.
 while (chute != numeroSecreto) {
     chute = prompt(`Escolha um número entre 1 e ${numeroMaximo}`);
